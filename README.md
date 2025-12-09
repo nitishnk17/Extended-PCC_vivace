@@ -214,7 +214,7 @@ When multiple applications share the same network, Extension 3 ensures everyone 
 
 We target fairness improvement from 0.92 to 0.98 while converging in <10 seconds.
 
-**Test Results:** 114/116 tests passed ⚠️ (2 edge case failures)
+**Test Results:** 116/116 tests passed 
 
 ### Extension 4: Use All Your Paths
 
@@ -425,7 +425,6 @@ Test Time:         4.8 seconds (parallel, 8 cores)
 
 ### Known Issues:
 1. **Extension 1 Bulk Transfer**: -31% throughput decrease (requires utility coefficient tuning)
-2. **ContentionDetector Edge Cases**: 2 test failures in sign change detection (doesn't affect core functionality)
 
 ### Recommendations:
 1. Tune utility function coefficients for Extension 1 bulk transfers
