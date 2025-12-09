@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-19T10:05:21.080707",
+    "title": "Extension 3: Distributed Fairness - Detailed Fairness Analysis",
+    "description": "Comprehensive fairness metrics including JFI, convergence time, and overhead",
+    "metric_definitions": {
+      "jfi": "Jain's Fairness Index (0-1 scale, 1 is perfectly fair)",
+      "convergence_time_seconds": "Time for all flows to reach stable fair share",
+      "overhead_percent": "CPU/computation overhead of fairness mechanism",
+      "per_flow_throughputs": "Individual throughput per flow"
+    }
+  },
+  "scenarios": {
+    "datacenter": {
+      "single_flow": {
+        "jfi": {
+          "mean": 1.0,
+          "std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "per_flow_throughputs": {
+          "mean": 22.61706666666667,
+          "values": [
+            [
+              22.722
+            ],
+            [
+              22.572000000000003
+            ],
+            [
+              22.557199999999998
+            ]
+          ]
+        },
+        "avg_throughput": {
+          "mean": 22.61706666666667,
+          "values": [
+            22.722,
+            22.572000000000003,
+            22.557199999999998
+          ]
+        },
+        "throughput_variance": {
+          "mean": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "convergence_time_seconds": null,
+        "overhead_percent": 0.1
+      },
+      "multi_flow": {
+        "jfi": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "per_flow_throughputs": {
+          "mean": 0.0,
+          "values": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "avg_throughput": {
+          "mean": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "throughput_variance": {
+          "mean": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "convergence_time_seconds": 5.0,
+        "overhead_percent": 0.5
+      }
+    },
+    "broadband": {
+      "single_flow": {
+        "jfi": {
+          "mean": 1.0,
+          "std": 0.0,
+          "values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "per_flow_throughputs": {
+          "mean": 10.854326344980587,
+          "values": [
+            [
+              10.7296
+            ],
+            [
+              10.900799999999998
+            ],
+            [
+              10.932579034941764
+            ]
+          ]
+        },
+        "avg_throughput": {
+          "mean": 10.854326344980587,
+          "values": [
+            10.7296,
+            10.900799999999998,
+            10.932579034941764
+          ]
+        },
+        "throughput_variance": {
+          "mean": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "convergence_time_seconds": null,
+        "overhead_percent": 0.1
+      },
+      "multi_flow": {
+        "jfi": {
+          "mean": 0.0,
+          "std": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "per_flow_throughputs": {
+          "mean": 0.0,
+          "values": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "avg_throughput": {
+          "mean": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "throughput_variance": {
+          "mean": 0.0,
+          "values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "convergence_time_seconds": 5.0,
+        "overhead_percent": 0.5
+      }
+    }
+  }
+}

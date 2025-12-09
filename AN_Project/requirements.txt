@@ -1,0 +1,17 @@
+# PCC Vivace Extensions - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Scientific Computing
+numpy>=1.19.0
+scipy>=1.5.0
+
+# Testing Framework
+pytest>=6.0.0
+pytest-cov>=2.10.0
+
+# Visualization
+matplotlib>=3.0.0
+seaborn>=0.10.0
+
+# Optional: For enhanced features
+pytest-xdist>=2.0.0  # For parallel test execution
